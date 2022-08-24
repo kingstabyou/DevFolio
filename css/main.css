@@ -572,11 +572,11 @@ section .row span {
 }
 #projects .project-wrapper .row {
   margin: 0;
-  margin-bottom: 8rem;
+  margin-bottom: 2rem;
 }
 @media (max-width: 37.5em) {
   #projects .project-wrapper .row {
-    margin-bottom: 4rem;
+    margin-bottom: 1rem;
   }
 }
 #projects .project-wrapper__text {
