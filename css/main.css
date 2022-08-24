@@ -272,7 +272,7 @@ section {
 section .row {
   display: grid;
   gap: 2rem;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns:0.2fr 1fr 1fr 0.2fr;
   grid-template-rows: 1fr;
   padding: 0 1.5rem;
 }
@@ -581,7 +581,7 @@ section .row span {
 }
 #projects .project-wrapper__text {
   width: 100%;
-  text-align: left;
+  text-align: center;
 }
 @media (max-width: 75em) {
   #projects .project-wrapper__text {
@@ -604,9 +604,11 @@ section .row span {
   }
 }
 #projects .project-wrapper__text-info {
+  text-align: left;
   margin-bottom: 1.5rem;
 }
 #projects .project-wrapper__text-btns {
+  justify-content: center;
   width: 100%;
   display: flex;
   align-items: center;
